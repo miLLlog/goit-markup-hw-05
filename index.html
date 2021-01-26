@@ -61,7 +61,7 @@
             эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <a href="tel:+380961111111" class="order link">Заказать услугу</a>
+          <a href="" class="order link" data-modal-open>Заказать услугу</a>
         </div>
       </section>
       <!-- особенности -->
@@ -134,8 +134,8 @@
       </section>
       <!-- наша команда -->
       <section class="section crew">
-        <h2 class="title first-title list">Наша команда</h2>
         <div class="container">
+          <h2 class="title first-title list">Наша команда</h2>
           <ul class="list member">
             <li class="item">
               <img src="./img/img.jpg" alt="" width="270" />
@@ -468,5 +468,11 @@
         </ul>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close" data-modal-close>❌</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
