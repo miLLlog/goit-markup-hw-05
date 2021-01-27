@@ -313,6 +313,7 @@ body {
 .regular-clients {
   display: flex;
   justify-content: center;
+  margin-bottom: 94px;
 }
 
 .regular-clients .item {
@@ -348,7 +349,6 @@ body {
   background-color: var(--bg-color-black);
   width: 1600px;
   margin: 0 auto;
-  margin-top: 94px;
   min-height: 250px;
   padding-top: 60px;
 }
@@ -441,6 +441,7 @@ body {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 94px;
 }
 
 .cards .items {
@@ -512,10 +513,6 @@ body {
   font-size: 18px;
   line-height: 1.56;
 }
-
-/* .thumb .text:hover {
-  opacity: 1;
-} */
 
 /* modal window */
 
