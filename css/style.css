@@ -13,6 +13,9 @@
   --bg-color-black: #2f303a;
   --icon-color: #afb1b8;
   --header-color: #ececec;
+  --color-link: rgba(255, 255, 255, 0.6);
+  --color-footer-icon: rgba(255, 255, 255, 0.1);
+  --color-border-cards: #eeeeee;
 }
 
 body {
@@ -181,7 +184,7 @@ body {
   font-size: 44px;
   line-height: 1.5;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
   margin-bottom: 30px;
   text-transform: uppercase;
 }
@@ -409,7 +412,7 @@ body {
   color: var(--white-color);
 }
 .address .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-link);
 }
 
 .address .mail {
@@ -425,7 +428,7 @@ body {
 }
 
 .footer .icon {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--color-footer-icon);
   fill: var(--white-color);
 }
 
@@ -489,7 +492,7 @@ body {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid rgba(238, 238, 238, 1);
+  border: 1px solid var(--color-border-cards);
 }
 
 .cards .items:hover,
